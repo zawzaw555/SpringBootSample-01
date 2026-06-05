@@ -1,0 +1,14 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	min-height:80vh;
+}
+
+body {
+	background-image: url("/images/bg-image.jpg");
+	background-size:  cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
