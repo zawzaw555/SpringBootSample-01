@@ -30,42 +30,50 @@
 		<java.version>25</java.version>
 	</properties>
 	<dependencies>
+		<!-- h2db -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-h2console</artifactId>
 		</dependency>
+		<!-- jdbc -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
-		</dependency>
+		<!-- thymeleaf -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		<!-- webmvc -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
+		<!-- bootstrap -->
 		<dependency>
     		<groupId>org.webjars</groupId>
     		<artifactId>bootstrap</artifactId>
     		<version>5.3.8</version>
     		<scope>compile</scope>
 		</dependency>
+		<!-- vebjars -->
 		<dependency>
     		<groupId>org.webjars</groupId>
     		<artifactId>webjars-locator</artifactId>
     		<version>0.52</version>
     		<scope>compile</scope>
 		</dependency>
+		<!-- validation -->
 		<dependency>
     		<groupId>org.springframework.boot</groupId>
     		<artifactId>spring-boot-starter-validation</artifactId>
     		<scope>compile</scope>
+		</dependency>
+		<!-- thymeleaf-layout-dialect -->
+		<dependency>
+    		<groupId>nz.net.ultraq.thymeleaf</groupId>
+    		<artifactId>thymeleaf-layout-dialect</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -78,6 +86,7 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
