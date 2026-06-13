@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class LoginController {
+	@GetMapping("/")
+	public String getHome() {
+		return "redirect:/login";
+	}
+
 	/*　ログイン画面を表示する */
 	@GetMapping("/login")
 	public String getLogin() {
